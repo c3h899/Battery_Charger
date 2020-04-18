@@ -1306,6 +1306,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 5050 4650 5050
 Connection ~ 4650 5050
-Text Notes 3800 5250 0    50   ~ 0
-TLO ~~  5 C ( 40 F)\nTHI ~~ 40 C (104 F)
+Text Notes 3650 5400 0    50   ~ 0
+TLO ~~  5 C ( 40 F)\n   TH1 ~~ 25.3 k\nTHI ~~ 40 C (104 F)\n   TH1 ~~ 5.33 k
 $EndSCHEMATC
