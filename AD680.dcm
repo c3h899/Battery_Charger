@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD680
+D 2.5V Low Power, Voltage Reference, SOT-23
+K Voltage Reference 2.5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD680.pdf
+$ENDCMP
+#
+$CMP ISL21070CIH320Z-TK
+D 2.0V 25μA Micropower Voltage Reference, SOT-23
+K Micropower Voltage Reference 2.0V
+F http://www.intersil.com/content/dam/Intersil/documents/fn75/fn7599.pdf
+$ENDCMP
+#
+$CMP ISL21070CIH325Z-TK
+D 2.5V 25μA Micropower Voltage Reference, SOT-23
+K Micropower Voltage Reference 2.5V
+F http://www.intersil.com/content/dam/Intersil/documents/fn75/fn7599.pdf
+$ENDCMP
+#
+#End Doc Library

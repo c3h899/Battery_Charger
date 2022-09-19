@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC3789
+D Micropower Synchronous Buck-Boost DC/DC Converter with Automatic Burst Mode Operation, DFN-12
+K Micropower Synchronous Buck-Boost DC/DC Converter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3442fb.pdf
+$ENDCMP
+#
+#End Doc Library

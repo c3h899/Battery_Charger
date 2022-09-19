@@ -1,0 +1,43 @@
+NiCd
+---
+Charged ~1.6 V
+
+NiMH
+---
+DV Goes Negative
+Charged ~1.5 V
+
+Universal
+---
+Undervolt 1.0 V (Arbitrary)
+Nominal 1.2 V
+Charged 1.5 V
+DESIGN MAX 1.7 V
+
+Trickel ~ 0.05 C
+Standard Charge ~ 0.1 C
+Quick Charge ~ 0.5 C
+Rapid Charge ~ 1.0 C
+
+Cell Counts
+
+14.4 V Nominal
+---
+12 Cells
+18 V @ 1.5 V
+20.4 V @ 1.7
+
+18.0 V Nominal
+---
+15 Cells
+22.5 V @ 1.5 V
+
+DESIGN
+---
+Series Buck + Boost Arangement
+Goals: Continuous Conduction
+Assume 3.6 Ah Capacity
+1.8 A Design Current (1/2 C Quick Charge)
+180 mA (1/20 C Trickel)
+
+Frequency of Operation 300 kHz
