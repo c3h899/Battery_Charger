@@ -1,6 +1,12 @@
 # Battery_Charger
 - Battery Charger for (14.4 and 18.0) V NiMH Tool Batteries *Experimental*
-- Requires External 24+ V, 2 A, DC power supply.
+- Requires External DC power supply rated for (7.4 to 30) V.
+- For best efficiency, avoid Dc supplies in the (18 to 25) V range.
+
+## Revision 4
+- Replaced buck converter with LTC3789 Buck-Boost.
+- Added isolating resistor R8 between LM7805 and MAX713.
+- Provisioned contact sensor and mode switch.
 
 ## Revision 3
 - Adjusted Footprints.
