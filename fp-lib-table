@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name WE-HCF)(type KiCad)(uri ${KIPRJMOD}/Libs/WE-HCF.pretty)(options "")(descr ""))
+  (lib (name Nexperia)(type KiCad)(uri ${KIPRJMOD}/Libs/Nexperia.pretty)(options "")(descr ""))
+)
