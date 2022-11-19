@@ -1,4 +1,4 @@
-update=11/18/2022 5:22:24 PM
+update=11/18/2022 11:14:17 PM
 version=1
 last_client=pcbnew
 [general]
@@ -259,7 +259,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=0.5_mm
-Clearance=0.15
+Clearance=0.1
 TrackWidth=0.5
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -281,7 +281,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=1_mm
-Clearance=0.2
+Clearance=0.15
 TrackWidth=1
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -291,9 +291,42 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/5]
+Name=2_mm
+Clearance=0.2
+TrackWidth=2
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/6]
+Name=3_mm
+Clearance=0.1
+TrackWidth=3
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/7]
 Name=4_mm
 Clearance=0.2
 TrackWidth=4
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/8]
+Name=Temp
+Clearance=0.1
+TrackWidth=0.5
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3

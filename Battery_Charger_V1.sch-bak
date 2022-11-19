@@ -440,19 +440,6 @@ F 3 "~" H 6850 1000 50  0001 C CNN
 	1    6850 1000
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R_Small_US R37
-U 1 1 60658EA4
-P 6750 850
-F 0 "R37" H 6650 800 39  0000 C CNN
-F 1 "0.56 Ω" H 6600 850 39  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal" H 6750 850 50  0001 C CNN
-F 3 "~" H 6750 850 50  0001 C CNN
-	1    6750 850 
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6750 750  6650 750 
 Wire Wire Line
 	6650 750  6650 1000
 Wire Wire Line
@@ -692,7 +679,6 @@ Wire Wire Line
 	6950 1000 7025 1000
 Wire Wire Line
 	8275 750  8275 1250
-Connection ~ 6750 750 
 $Comp
 L Device:C_Small C15
 U 1 1 6072196E
@@ -2143,8 +2129,6 @@ Connection ~ 7950 750
 Wire Wire Line
 	7950 750  8275 750 
 Wire Wire Line
-	6750 750  7250 750 
-Wire Wire Line
 	7250 800  7250 750 
 Connection ~ 7250 750 
 Wire Wire Line
@@ -2275,4 +2259,20 @@ Wire Wire Line
 	900  2600 900  2950
 NoConn ~ 1000 2900
 NoConn ~ 1000 2750
+Wire Wire Line
+	6650 750  6750 750 
+$Comp
+L Device:R_Small_US R37
+U 1 1 63AB723A
+P 6750 850
+F 0 "R37" H 6625 800 39  0000 C CNN
+F 1 "100 kΩ" H 6575 875 39  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6750 850 50  0001 C CNN
+F 3 "~" H 6750 850 50  0001 C CNN
+	1    6750 850 
+	-1   0    0    1   
+$EndComp
+Connection ~ 6750 750 
+Wire Wire Line
+	6750 750  7250 750 
 $EndSCHEMATC

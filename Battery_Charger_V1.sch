@@ -805,7 +805,7 @@ Connection ~ 7900 4250
 Wire Wire Line
 	7900 4250 7900 4300
 Text Label 7600 4250 2    50   ~ 0
-Vfb
+V_FB
 Text Notes 8750 4700 0    50   ~ 0
 DRV Sinks Current to Increase Voltage\nDesign for a 28 V Max Output\n\nVout = (0.8 V) * (R1 + R2)/(R1)\nRegulator tries to keep Vfb at (0.8 V)\n\n(270k, 100k) Sets a Nominal ~~3 V Target.\n\nAt 28 V, 97 uA across R2.\nAssume V_CE (Sat) 0.5 V,\nV(R3) = 0.3 V at 97 uA --> R3 = 3.1 kOhm\nfor V_CE (Sat) 0.7 V ... R3 = 1.0 kOhm
 $Comp
