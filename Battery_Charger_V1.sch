@@ -1997,7 +1997,7 @@ U 1 1 63D77586
 P 5950 5900
 F 0 "SW1" H 5950 6300 50  0000 C CNN
 F 1 "(14.4 / 18.0) V Mode Switch" H 6000 5450 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_E-Switch_EG1271_DPDT" H 5950 6100 50  0001 C CNN
+F 2 "CK_Switches:DPDT" H 5950 6100 50  0001 C CNN
 F 3 "~" H 5950 6100 50  0001 C CNN
 	1    5950 5900
 	-1   0    0    -1  
@@ -2160,7 +2160,7 @@ NoConn ~ 7950 2200
 Wire Wire Line
 	8300 2400 8250 2400
 $Comp
-L q_dual_nmos_psmn4r2_40vsh:Q_DUAL_NMOS_PSMN4R2_40VSH Q3
+L Battery_Charger_V1-rescue:Q_DUAL_NMOS_PSMN4R2_40VSH-q_dual_nmos_psmn4r2_40vsh Q3
 U 1 1 6375112D
 P 8075 1450
 F 0 "Q3" H 7900 1500 39  0000 L CNN
@@ -2171,7 +2171,7 @@ F 3 "~" H 8275 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L q_dual_nmos_psmn4r2_40vsh:Q_DUAL_NMOS_PSMN4R2_40VSH Q3
+L Battery_Charger_V1-rescue:Q_DUAL_NMOS_PSMN4R2_40VSH-q_dual_nmos_psmn4r2_40vsh Q3
 U 2 1 6375262B
 P 8075 1850
 F 0 "Q3" H 7900 1900 39  0000 L CNN
@@ -2190,7 +2190,7 @@ Connection ~ 8275 1650
 Wire Wire Line
 	8100 1650 8175 1650
 $Comp
-L q_dual_nmos_psmn4r2_40vsh:Q_DUAL_NMOS_PSMN4R2_40VSH Q4
+L Battery_Charger_V1-rescue:Q_DUAL_NMOS_PSMN4R2_40VSH-q_dual_nmos_psmn4r2_40vsh Q4
 U 1 1 63775358
 P 9250 1450
 F 0 "Q4" H 9075 1500 39  0000 L CNN
@@ -2201,7 +2201,7 @@ F 3 "~" H 9450 1450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L q_dual_nmos_psmn4r2_40vsh:Q_DUAL_NMOS_PSMN4R2_40VSH Q4
+L Battery_Charger_V1-rescue:Q_DUAL_NMOS_PSMN4R2_40VSH-q_dual_nmos_psmn4r2_40vsh Q4
 U 2 1 63775F64
 P 9250 1850
 F 0 "Q4" H 9075 1900 39  0000 L CNN

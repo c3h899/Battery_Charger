@@ -2,4 +2,5 @@
   (lib (name AD5693)(type Legacy)(uri ${KIPRJMOD}/AD5693.lib)(options "")(descr ""))
   (lib (name LTC3789)(type Legacy)(uri ${KIPRJMOD}/LTC3789.lib)(options "")(descr ""))
   (lib (name q_dual_nmos_psmn4r2_40vsh)(type Legacy)(uri "C:/Users/User/Desktop/Low-Noise SMPS/Libs/q_dual_nmos_psmn4r2_40vsh.lib")(options "")(descr ""))
+  (lib (name Battery_Charger_V1-rescue)(type Legacy)(uri ${KIPRJMOD}/Battery_Charger_V1-rescue.lib)(options "")(descr ""))
 )
